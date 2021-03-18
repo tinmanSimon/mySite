@@ -1,3 +1,11 @@
+body {
+  background-color: #282525;
+}
+
+.container {
+  background-color: #2b2222;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -10,9 +18,15 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #282525;
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.nav-link {
+  user-select: none;
 }
 
 .footer-padding {
@@ -32,4 +46,8 @@
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
+}
+
+.composeContainer{
+  padding-bottom: 20px;
 }
