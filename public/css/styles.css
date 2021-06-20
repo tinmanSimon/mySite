@@ -2,8 +2,21 @@ body {
   background-color: #282525;
 }
 
+.postContent {
+  word-wrap: break-word;
+}
+
+.postTitle{
+  color: #FFFFFF;
+}
+
+.postTitle:hover{
+  color: #4B443C;
+}
+
 .container {
-  background-color: #2b2222;
+  color: #fff;
+  padding-top: 20px;
 }
 
 .container-fluid {
@@ -19,6 +32,10 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
     background-color: #282525;
+}
+
+.navbar-brand {
+  padding-left: 40px;
 }
 
 .navbar-nav {

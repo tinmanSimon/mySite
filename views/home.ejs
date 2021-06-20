@@ -3,5 +3,9 @@
 
 <h1>Home</h1>
 <p><%= homeStartingContent %></p>
+<% for(const index in posts) { %>
+  <h1> <a class="postTitle" href=<%= "/posts/" + posts[index].hrefLink %>> <%= posts[index].title %> </a></h1>
+  <p><%= posts[index].truncatedContent %></p>
+<% } %>
 
 <%- include("partials/footer")%>
